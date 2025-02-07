@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Examen</title>
+</head>
+<body>
+    <h1>Examen 1</h1>
+    <details>
+        <summary> <b>1. Identifica el tipo de elemento, en línea o en bloque, que es cada uno:</b> </summary>
+        <table>
+        <tr>
+            <th>Elemento</th>
+            <th>En linea(inline)</th>
+            <th>En Block</th>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td></td>
+            <td><span>X</span></td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td></td>
+            <td><span>X</span></td>
+        </tr>
+        <tr>
+            <td>h4</td>
+            <td></td>
+            <td><span>X</span></td>
+        </tr>
+        <tr>
+            <td>li</td>
+            <td></td>
+            <td><span>X</span></td>
+        </tr>
+        <tr>
+            <td>abbr</td>
+            <td><span>X</span></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td><span>X</span></td>
+            <td></td>
+        </tr>
+    </table>
+    </details>
+    
+    <details>
+        <summary><b>2. Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web. </b>       </summary>
+        <ul>
+            <li>Identifica  al navegador la version de HTML que se esta utilizando</li>
+            <li>Ayuda a un navegador web a visualizar correctamente la página web.
+            </li>
+        </ul>
+    </details>
+    <details >
+         <summary><b>3. Dispones de dos páginas web, “inicio.html” y “contacto.html” y quieres crear un enlace en “inicio.html” dirigido a “contacto.html” con el texto "Datos de contacto". Escribe el código HTML necesario para crear ese enlace</b></summary>
+        <p class="code"><code>&lt;a href="contacto.html"&gt;Datos de contacto &lt;/a&gt;</code></p>
+    </details>
+    <details>
+        <summary><b>4. En el directorio “sitioweb” tienes la página web “inicio.html”. Dentro de esa página quieres añadir un párrafo con el texto “Mis vacaciones en la playa:” y a continuación, dentro de ese mismo párrafo, quieres incluir una imagen llamada “foto.jpg” que se encuentra en el directorio “cosas” que se encuentra dentro de “sitioweb”. Escribe el código HTML del párrafo.</b></summary>
+        <p class="code"><code>&lt;p>Mis vacaciones en la playa: &lt;img src="cosas/foto.jpg" alt="">&lt;/p&gt;</code></p>
+    </details>
+    <details>
+        <summary><b>5. Dentro de una página web quieres incluir un fragmento de un discurso de una persona famosa. ¿Cuál es la etiqueta más apropiada para hacerlo?</b></summary>
+        <p>
+            &lt;blockquote>, porque permite incluir una cita que ocupe varias líneas. &lt;q&gt; sólo es adecuado para una cita en línea, sin saltos de línea.
+        </p>
+    </details>
+    <details>
+        <summary><b>6. Escribe el código HTML5 de un cuadro de texto de un formulario que debe ser rellenado con los apellidos del usuario antes de que el formulario pueda ser enviado al servidor.
+        </b></summary>
+        <p class="code">
+            &lt;input type="text" name="apellidos" id="apellidos" required>
+
+        </p>
+    </details>
+    <details>
+        <summary>
+            <b>
+                7. Nombra tres tipos nuevos de controles tipo &lt;input> en HTML5.
+            </b>
+        </summary>
+        <ul>
+            <li>color</li>
+            <li>radio</li>
+            <li>email</li>
+            <li>password</li>
+            <li>range</li>
+        </ul>
+    </details>
+    <details>
+        <summary><b>8. ¿Qué etiqueta de HTML5 se emplea para marcar una fecha?</b> 
+        </summary>
+        <p>La etiqueta <code>&lt;time></code> </p>
+    </details>
+    <details>
+        <summary><b>9. Escribe el código HTML5 mínimo necesario para enlazar una hoja de estilo externa.</b> 
+        </summary>
+        <p class="code">
+            <code> &lt;link rel="stylesheet" href="style.css"&gt;</code>
+        </p>
+    </details>
+    <details>
+        <summary><b>10. ¿Qué error presenta el siguiente fragmento de HTML5?
+        </b></summary>
+        <p >
+            <code >
+                <pre class="error">
+                    &lt;article>
+                        &lt;header>Umbrella Corporation&lt;/header&gt;
+                        &lt;p>Article content&lt;/p>
+                        &lt;sidebar&gt;>Footnotes&lt;/sidebar&gt;
+                    &lt;/article&gt;
+                </pre>
+            </code>
+        </p>
+        <p>La etiqueta &lt;sidebar&gt; no existe</p>
+    </details>
+    <details>
+        <summary><b>11. Un párrafo tiene un tamaño de letra definido como 1.25em. Expresado como un porcentaje, ¿cuánto más grande será el tamaño de letra de este párrafo comparado con el resto de párrafos?
+        </b></summary>
+        <p>1.25em equivale a 125%, por tanto, es un 25% más grande.
+
+        </p>
+    </details>
+    <details>
+        <summary><b>12. Escribe la regla CSS (selector y propiedades) necesaria para que todos los párrafos de una página web aparezcan en cursiva.
+        </b></summary>
+        <code>
+            p{
+            font-style:italic;
+        }
+        </code>
+    </details>
+    <details>
+        <summary><b>13. Escribe la regla CSS (selector y propiedades) necesaria para que todos los enlaces de una página web aparezcan:
+        </b></summary>
+        <p>
+            <code >
+                <pre class="code">
+                    a:hover {
+                        color: red;
+                      }
+                      
+                      a:focus {
+                        color: green;
+                      }
+                </pre>
+                
+            </code>
+        </p>
+    </details>
+    <details>
+        <summary><b>14. Escribe la regla CSS (selector y propiedades) necesaria para que todos los elementos de una lista que tenga la clase “importante” y que se encuentre dentro de un contenedor <code>&lt;div></code> con la clase “destacado” aparezcan con el color rojo.
+        </b></summary>
+        <pre class="code">
+            div.destacado ul.importante li{
+                color:red;
+            }
+        </pre>
+       
+    </details>
+    <details>
+        <summary><b>15. ¿Qué error presenta el siguiente fragmento de CSS?
+        </b></summary>
+        <code>
+            <pre class="error">
+                h1 {
+                    font-face: Georgia, Cambria, sans-serif;
+                    font-size: 24px;
+                  }
+                  
+                  p {
+                    font-face: Arial, Verdana, Calibri, serif;
+                    font-size: 16px;
+                  }                  
+            </pre>
+        </code>
+        <p>La propiedad font-face no existe en CSS, se debe usar font-family.
+
+        </p>
+    </details>
+</body>
+</html>
